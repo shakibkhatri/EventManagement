@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+/****************************
+    Default Configurations
+****************************/
+
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white;
+    font-family: Montserrat;
+}
+
+/****************************
+    CSS for Header Section
+****************************/
+
+header {
+    background: #444;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header .logo {
+    position: fixed;
+    top: 2px;
+    left: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+header .logo .brand {
+    color: white;
+    font-size: 35px;
+}
+
+header .logo a:hover {
+    background: none;
+}
+
+/****************************
+    CSS for Menu NavBar
+****************************/
+
+nav .menu-nav {
+    position: fixed;
+    right: 5px;
+    top: 13px;
+}
+
+nav .menu-nav li{
+    display: inline-block;
+    margin: 5px;
+}
+
+nav .menu-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .3s ease-out;
+}
+
+nav .menu-nav li .active, a:hover {
+    background: black;
+    border-radius: 5px;
+}
+
+/****************************
+CSS for website Inro Section
+****************************/
+
+.websiteIntro {
+    background: url(../img/websiteIntro-background.jpeg) center center no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.websiteIntro .container {
+    background: linear-gradient(to left, rgba(255, 51, 0, 0.7), rgba(0, 68, 255, 0.7));
+    margin-top: 60px;
+}
+
+/****************************
+CSS for website events Section
+****************************/
+
+.container .title{
+    text-shadow: 3px 3px 8px #444;
+    border-bottom: 5px solid black;
+}
+
+.events .eventBox img {
+    height: 324px;
+    width: 100%;
+}
+
+.events .eventBox {
+    border-radius: 10px;
+    background: linear-gradient(to left, rgba(255, 51, 0, 0.288), rgba(0, 68, 255, 0.7));
+}
+
+.events .eventBox h1 {
+    border-bottom: 5px solid white;
+}
+
+/****************************
+CSS for footer
+****************************/
+
+footer {
+    background: #444;
+    font-family: Raleway, sans-serif;
+    margin-top: 50px;
+}
+
+footer .flex-container a{
+    color: white;
+    transition: all .3s ease-out;
+}
+
+footer .flex-container a:hover {
+    color: gold;
+    background: transparent;
+    
+}
+
+
+
+
+
+
+/************************************
+About Us CSS
+************************************/
+
+.contact_form {
+    padding: 5px;
+}
+
+.contact_form input {
+    width: 50%;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.contact_form textarea {
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+}
+
+/************************************
+Register CSS
+************************************/
+
+.register_form input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    width: 60%;
+    margin: 10px;
+}
+
+.login_form input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    width: 50%;
+    margin: 10px;
+}
+
+/***************************************
+Youtube Live CSS
+***************************************/
+
+.Youtube_form input{
+    padding: 5px;
+}
+.Youtube_form input {
+    width: 50%;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.Youtube_form textarea {
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+/***************************************
+Admin Dashboard CSS
+***************************************/
+
+.adminDashboard {
+    margin-top: 80px;
+}
